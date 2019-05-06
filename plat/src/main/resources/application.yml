@@ -1,0 +1,55 @@
+spring:
+ datasource:
+  type: com.alibaba.druid.pool.DruidDataSource
+  url: jdbc:mysql://47.104.219.45:3306/dispenser?characterEncoding=utf-8&useSSL=false&zeroDateTimeBehavior=convertToNull&&allowMultiQueries=true&autoReconnect=true
+  username: c##visizen
+  password: 123456
+  driverClassName: com.mysql.jdbc.Driver
+  initialSize: 5
+  minIdle: 5
+  maxActive: 20
+  maxWait: 60000
+  timeBetweenEvictionRunsMillis: 60000
+  minEvictableIdleTimeMillis: 300000
+  testWhileIdle: true
+  validationQuery: SELECT 1 FROM DUAL
+  testOnBorrow: false
+  exceptionSorter: true
+  testOnReturn: false
+  poolPreparedStatements: true
+  #filters: stat,wall,log4j
+  filters: stat
+  maxPoolPreparedStatementPerConnectionSize: 20
+  connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+  useGlobalDataSourceStat: true
+# redis:
+#  database: 0
+#  host: 192.168.30.36
+#  port: 6379
+#  pool:
+#   max-idle: 8
+#   min-idle: 0
+#   max-active: 10
+#   max-wait: -1
+# activemq:
+#   broker-url: tcp://192.168.30.36:61616
+#   user:
+#   password:
+#   pool:
+#     enabled: true
+#     max-connections: 100
+#mybatis:
+# config-location: classpath:mybatis-config.xml
+# mapperLocations: classpath:mapper/*.xml
+# typeAliasesPackage: com.visizen.csgpm.db.po
+
+logging:
+  file: log/log.log
+
+
+server:
+  port: 8080
+  tomcat:
+    max-threads: 3000
+    accept-count: 3000
+    max-connections: 3000
