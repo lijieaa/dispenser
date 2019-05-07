@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+
+</head>
+
+<body>
+
+<p>Render in table</p>
+<div id="qrcodeTable"></div>
+<p>Render in canvas</p>
+<div id="qrcodeCanvas"></div>
+
+<script th:src="@{/js/jquery-3.4.1.min.js}"></script>
+<script th:src="@{/js/jquery-qrcode/jquery.qrcode.min.js}"></script>
+<script type="text/javascript" th:inline="javascript">
+
+   var contextPath =  /*[[@{/}]]*/;
+   var scheme=/*[[${#request.getScheme()}]]*/;
+   var serverName=/*[[${#request.getServerName()}]]*/;
+   var port=/*[[${#request.getServerPort()}]]*/;
+   var absolutePath = scheme+"://"+serverName+":"+port;
+
+   alert(absolutePath)
+
+    jQuery('#qrcodeTable').qrcode({
+        render	: "table",
+        text	: absolutePath+"/f/pay"
+    });
+    jQuery('#qrcodeCanvas').qrcode({
+        text	: "http://jetienne.com"
+    });
+
+
+</script>
+
+</body>
+</html>

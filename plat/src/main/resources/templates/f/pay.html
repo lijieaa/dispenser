@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <script type="text/javascript" th:inline="javascript">
+        /*<![CDATA[*/
+                var flag = [[${flag}]]; //flag=true时是运行在支付宝环境，flag=false时是运行在微信环境
+                alert(flag);
+        /*]]>*/
+    </script>
+</head>
+
+<body>
+
+
+</body>
+</html>
