@@ -21,7 +21,9 @@
    var port=/*[[${#request.getServerPort()}]]*/;
    var absolutePath = scheme+"://"+serverName+":"+port;
 
-   alert(absolutePath)
+   var url=[[${#request.getRequestURL().toString()}]]
+
+   alert(absolutePath+"/f/pay")
 
     jQuery('#qrcodeTable').qrcode({
         render	: "table",
