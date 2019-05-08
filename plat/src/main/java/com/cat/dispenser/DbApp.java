@@ -1,6 +1,8 @@
 package com.cat.dispenser;
 
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Controller;
@@ -17,10 +19,19 @@ import javax.servlet.http.HttpServletRequest;
 @RequestMapping("f")
 public class DbApp {
 
+    private static final Logger log = LoggerFactory.getLogger(DbApp.class);
+
     public static void main(String[] args) {
         SpringApplication.run(DbApp.class);
     }
 
+
+    @RequestMapping(value = "wx/access_url",method = RequestMethod.GET)
+    @ResponseBody
+    String wxAccessUrl(String signature,String timestamp,String nonce,String echostr){
+        log.info("signature:{},timestamp:{},nonce:{},echostr:{}",signature,timestamp,nonce,echostr);
+        return echostr;
+    }
 
 
     @RequestMapping(value = "goods",method = RequestMethod.GET)
@@ -44,4 +55,6 @@ public class DbApp {
             return "/f/pay_error";
         }
     }
+
+
 }
