@@ -75,7 +75,7 @@ public class DbApp {
 
 
 
-    @RequestMapping(value = "ticket", method = RequestMethod.GET)
+    @RequestMapping(value = "ticket", method = RequestMethod.POST)
     @ResponseBody
     Map<String, String> getTicket(HttpServletRequest request) {
         String appId = "wx02d7d72eafde98d8";

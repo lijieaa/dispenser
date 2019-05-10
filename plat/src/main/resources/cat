@@ -1,0 +1,2043 @@
+{
+  "success": true,
+  "data": {
+    "name": "categorySelect",
+    "uiType": "categorySelect",
+    "label": "类目选择",
+    "group": "basic",
+    "catCascadeUrl": "asyncOpt.htm?optType=categorySelectChildren",
+    "needSpell": true,
+    "specialBrand": true,
+    "dataSource": [
+      {
+        "groupName": "游戏话费",
+        "groupId": "G_1",
+        "children": [
+          {
+            "id": 40,
+            "name": "腾讯QQ专区",
+            "path": [
+              "腾讯QQ专区"
+            ],
+            "idpath": [
+              40
+            ],
+            "spell": "txqqzq",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "QQ幻想点卡装备等请勿放"
+          },
+          {
+            "id": 99,
+            "name": "网络游戏点卡",
+            "path": [
+              "网络游戏点卡"
+            ],
+            "idpath": [
+              99
+            ],
+            "spell": "wlyxdk",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 50011665,
+            "name": "网游装备/游戏币/帐号/代练",
+            "path": [
+              "网游装备/游戏币/帐号/代练"
+            ],
+            "idpath": [
+              50011665
+            ],
+            "spell": "wyzbyxbzhdl",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          }
+        ]
+      },
+      {
+        "groupName": "服装鞋包",
+        "groupId": "G_2",
+        "children": [
+          {
+            "id": 50010404,
+            "name": "服饰配件/皮带/帽子/围巾",
+            "path": [
+              "服饰配件/皮带/帽子/围巾"
+            ],
+            "idpath": [
+              50010404
+            ],
+            "spell": "fspjpdmzwj",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 50011740,
+            "name": "流行男鞋",
+            "path": [
+              "流行男鞋"
+            ],
+            "idpath": [
+              50011740
+            ],
+            "spell": "lxnx",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "行业将进行运动品牌商品错放整改，详见“淘宝男鞋官方帮派”（http://bangpai.taobao.com/group/thread/1202512-280453641.htm）"
+          },
+          {
+            "id": 30,
+            "name": "男装",
+            "path": [
+              "男装"
+            ],
+            "idpath": [
+              30
+            ],
+            "spell": "nz",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 1625,
+            "name": "女士内衣/男士内衣/家居服",
+            "path": [
+              "女士内衣/男士内衣/家居服"
+            ],
+            "idpath": [
+              1625
+            ],
+            "spell": "nsnynsnyjjf",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "男用腰背夹请勿放,正确类目为家用电器/保健器械>个人护理类"
+          },
+          {
+            "id": 50006843,
+            "name": "女鞋",
+            "path": [
+              "女鞋"
+            ],
+            "idpath": [
+              50006843
+            ],
+            "spell": "nx",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "运动品牌请勿错放"
+          },
+          {
+            "id": 16,
+            "name": "女装/女士精品",
+            "path": [
+              "女装/女士精品"
+            ],
+            "idpath": [
+              16
+            ],
+            "spell": "nznsjp",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "请使用商品实物拍摄图片！童装、男装、女士箱包、内衣、鞋、配件请勿放；    <请勿发布洋垃圾商品！>"
+          },
+          {
+            "id": 50006842,
+            "name": "箱包皮具/热销女包/男包",
+            "path": [
+              "箱包皮具/热销女包/男包"
+            ],
+            "idpath": [
+              50006842
+            ],
+            "spell": "xbpjrxnbnb",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          }
+        ]
+      },
+      {
+        "groupName": "手机数码",
+        "groupId": "G_3",
+        "children": [
+          {
+            "id": 50008090,
+            "name": "3C数码配件",
+            "path": [
+              "3C数码配件"
+            ],
+            "idpath": [
+              50008090
+            ],
+            "spell": "3csmpj",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 50018222,
+            "name": "DIY电脑",
+            "path": [
+              "DIY电脑"
+            ],
+            "idpath": [
+              50018222
+            ],
+            "spell": "diydn",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "电脑台式机，电脑一体机，工作站，服务器等，办公一体机请不要放入，否则给予删除处理。"
+          },
+          {
+            "id": 1201,
+            "name": "MP3/MP4/iPod/录音笔",
+            "path": [
+              "MP3/MP4/iPod/录音笔"
+            ],
+            "idpath": [
+              1201
+            ],
+            "publish": true,
+            "spell": "mp3mp4ipodlyb",
+            "isBrand": false,
+            "leaf": false,
+            "submitId": 1201,
+            "isAuthorized": true,
+            "tips": "本类目下不得发布光机头或者无内存等不可使用的最低价套餐类型，发布的最低价商品必须是拿到手不需要借助外部配件即可正常使用的"
+          },
+          {
+            "id": 50007218,
+            "name": "办公设备/耗材/相关服务",
+            "path": [
+              "办公设备/耗材/相关服务"
+            ],
+            "idpath": [
+              50007218
+            ],
+            "spell": "bgsbhcxgfw",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 1101,
+            "name": "笔记本电脑",
+            "path": [
+              "笔记本电脑"
+            ],
+            "idpath": [
+              1101
+            ],
+            "publish": true,
+            "spell": "bjbdn",
+            "isBrand": false,
+            "leaf": false,
+            "submitId": 1101,
+            "isAuthorized": true,
+            "tips": "1、若要发布该类目下没有的品牌请点“国货精品数码”>“国货精品笔记本”。2、在颜色选项中会出现“排名价“、”缺货价“等等，另外还有把笔记本的原配电池分开卖的情况，为了笔记本类目的健康发展，此类商品会被计数下架处罚。望卖家遵守淘宝规则，维护淘宝秩序，谢谢!"
+          },
+          {
+            "id": 11,
+            "name": "电脑硬件/显示器/电脑周边",
+            "path": [
+              "电脑硬件/显示器/电脑周边"
+            ],
+            "idpath": [
+              11
+            ],
+            "spell": "dnyjxsqdnzb",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "台式机，一体机，服务器等请发到台式机/一体机/服务器类目，亲爱的卖家朋友对电脑硬件类目如有疑议或修改建议，请到电脑硬件帮派发帖：http://bangpai.taobao.com/group/298507.htm"
+          },
+          {
+            "id": 20,
+            "name": "电玩/配件/游戏/攻略",
+            "path": [
+              "电玩/配件/游戏/攻略"
+            ],
+            "idpath": [
+              20
+            ],
+            "spell": "dwpjyxgl",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 50024099,
+            "name": "电子元器件市场",
+            "path": [
+              "电子元器件市场"
+            ],
+            "idpath": [
+              50024099
+            ],
+            "spell": "dzyqjsc",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "电子行业商家完成线下实体资质认证会有更多流量支持。报名链接：https://yingxiao.taobao.com/content/n_content_detail.htm?contentId=493212033285"
+          },
+          {
+            "id": 124852003,
+            "name": "二手数码",
+            "path": [
+              "二手数码"
+            ],
+            "idpath": [
+              124852003
+            ],
+            "spell": "essm",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 124044001,
+            "name": "品牌台机/品牌一体机/服务器",
+            "path": [
+              "品牌台机/品牌一体机/服务器"
+            ],
+            "idpath": [
+              124044001
+            ],
+            "spell": "pptjppytjfwq",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 50019780,
+            "name": "平板电脑/MID",
+            "path": [
+              "平板电脑/MID"
+            ],
+            "idpath": [
+              50019780
+            ],
+            "publish": true,
+            "spell": "pbdnmid",
+            "isBrand": false,
+            "leaf": false,
+            "submitId": 50019780,
+            "isAuthorized": true,
+            "tips": "new iPad新品发布，wifi版和4G版发布分开发布，含系统的请发在此类目下，样机裸机请发二手/闲置."
+          },
+          {
+            "id": 50012164,
+            "name": "闪存卡/U盘/存储/移动硬盘",
+            "path": [
+              "闪存卡/U盘/存储/移动硬盘"
+            ],
+            "idpath": [
+              50012164
+            ],
+            "spell": "sckupccydyp",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "卡套、读卡器等配件请勿错放。"
+          },
+          {
+            "id": 1512,
+            "name": "手机",
+            "path": [
+              "手机"
+            ],
+            "idpath": [
+              1512
+            ],
+            "publish": true,
+            "spell": "sj",
+            "isBrand": false,
+            "leaf": false,
+            "submitId": 1512,
+            "isAuthorized": true,
+            "tips": "若要发布该类目下没有的品牌请点“国货精品手机”"
+          },
+          {
+            "id": 14,
+            "name": "数码相机/单反相机/摄像机",
+            "path": [
+              "数码相机/单反相机/摄像机"
+            ],
+            "idpath": [
+              14
+            ],
+            "spell": "smxjdfxjsxj",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 50018264,
+            "name": "网络设备/网络相关",
+            "path": [
+              "网络设备/网络相关"
+            ],
+            "idpath": [
+              50018264
+            ],
+            "spell": "wlsbwlxg",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "网络设备相关，包括路由器、交换机、网卡、宽带设备、电脑/网络工具、网络存储设备、光纤设备等,虚拟产品，如：上网计费卡，CMCC卡 等虚拟费用卡类请发布至虚拟类目，发布到网络设备的一律删除宝贝处理"
+          },
+          {
+            "id": 50018004,
+            "name": "文具电教/文化用品/商务用品",
+            "path": [
+              "文具电教/文化用品/商务用品"
+            ],
+            "idpath": [
+              50018004
+            ],
+            "spell": "wjdjwhypswyp",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "掌柜们如对本类目有任何建议和疑义,可登陆http://bangpai.taobao.com/group/298998.htm发表,一周内回复,谢绝广告!"
+          }
+        ]
+      },
+      {
+        "groupName": "家用电器",
+        "groupId": "G_4",
+        "children": [
+          {
+            "id": 50012082,
+            "name": "厨房电器",
+            "path": [
+              "厨房电器"
+            ],
+            "idpath": [
+              50012082
+            ],
+            "spell": "cfdq",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "家用或商用厨房食品制作、烹饪等产品，手动及烹饪锅类厨具不要放在此类目下，有意见可以发表至http://bangpai.taobao.com/group/181040.htm"
+          },
+          {
+            "id": 50022703,
+            "name": "大家电",
+            "path": [
+              "大家电"
+            ],
+            "idpath": [
+              50022703
+            ],
+            "spell": "djd",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "如有任何问题，欢迎发表至家电帮派：http://bangpai.taobao.com/group/181040.htm"
+          },
+          {
+            "id": 50002768,
+            "name": "个人护理/保健/按摩器材",
+            "path": [
+              "个人护理/保健/按摩器材"
+            ],
+            "idpath": [
+              50002768
+            ],
+            "spell": "grhlbjamqc",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "注意:成人计生用品、药品、保健品、消炎用品、保健健康食品等切勿放到此类目，卖家有任何关于类目的意见可以发表到http://bangpai.taobao.com/group/181040.htm"
+          },
+          {
+            "id": 122718004,
+            "name": "家庭保健",
+            "path": [
+              "家庭保健"
+            ],
+            "idpath": [
+              122718004
+            ],
+            "spell": "jtbj",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "根据国家《医疗器械监督管理条例》的相关政策依据，参考平台交易的实际情况，建立“家庭保健”类目，将政策允许的医疗器械进行集中此类目发布和管理，"
+          },
+          {
+            "id": 50012100,
+            "name": "生活电器",
+            "path": [
+              "生活电器"
+            ],
+            "idpath": [
+              50012100
+            ],
+            "spell": "shdq",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "本类目为家电类目，家居类产品请勿放于此。如有任何问题，欢迎发表至家电帮派：http://bangpai.taobao.com/group/181040.htm"
+          },
+          {
+            "id": 50011972,
+            "name": "影音电器",
+            "path": [
+              "影音电器"
+            ],
+            "idpath": [
+              50011972
+            ],
+            "spell": "yydq",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "如有任何问题，欢迎发表至家电帮派：http://bangpai.taobao.com/group/181040.htm"
+          }
+        ]
+      },
+      {
+        "groupName": "美妆饰品",
+        "groupId": "G_5",
+        "children": [
+          {
+            "id": 28,
+            "name": "ZIPPO/瑞士军刀/眼镜",
+            "path": [
+              "ZIPPO/瑞士军刀/眼镜"
+            ],
+            "idpath": [
+              28
+            ],
+            "spell": "zipporsjdyj",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "各位卖家：世博会期间，接上级部门通知，zippo类目下各类易燃、易爆物品需严格遵守《禁寄物品通告》中的相关规定。查看《禁寄物品通知》http://www.chinapost.gov.cn/folder9/folder79/index.html"
+          },
+          {
+            "id": 50010788,
+            "name": "彩妆/香水/美妆工具",
+            "path": [
+              "彩妆/香水/美妆工具"
+            ],
+            "idpath": [
+              50010788
+            ],
+            "spell": "czxsmzgj",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "仅限发布面部彩妆、香水、美容化妆工具类商品，同款不同色号仅限发布一件商品"
+          },
+          {
+            "id": 50023282,
+            "name": "美发护发/假发",
+            "path": [
+              "美发护发/假发"
+            ],
+            "idpath": [
+              50023282
+            ],
+            "spell": "mfhfjf",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "仅限发布洗发护发、美发造型、染发烫发、假发及配件类商品"
+          },
+          {
+            "id": 1801,
+            "name": "美容护肤/美体/精油",
+            "path": [
+              "美容护肤/美体/精油"
+            ],
+            "idpath": [
+              1801
+            ],
+            "spell": "mrhfmtjy",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "淘宝化妆品官方帮派地址：http://bangpai.taobao.com/group/588794.htm"
+          },
+          {
+            "id": 50013864,
+            "name": "饰品/流行首饰/时尚饰品新",
+            "path": [
+              "饰品/流行首饰/时尚饰品新"
+            ],
+            "idpath": [
+              50013864
+            ],
+            "spell": "splxssssspx",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 50468001,
+            "name": "手表",
+            "path": [
+              "手表"
+            ],
+            "idpath": [
+              50468001
+            ],
+            "spell": "sb",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 50011397,
+            "name": "珠宝/钻石/翡翠/黄金",
+            "path": [
+              "珠宝/钻石/翡翠/黄金"
+            ],
+            "idpath": [
+              50011397
+            ],
+            "spell": "zbzschj",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "DIY散珠类商品请放\"饰品/时尚饰品/流行饰品\"类目下"
+          }
+        ]
+      },
+      {
+        "groupName": "母婴用品",
+        "groupId": "G_6",
+        "children": [
+          {
+            "id": 35,
+            "name": "奶粉/辅食/营养品/零食",
+            "path": [
+              "奶粉/辅食/营养品/零食"
+            ],
+            "idpath": [
+              35
+            ],
+            "spell": "nffsyypls",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "2015年9月30日前未备案的食品特种经营卖家（除农产品外），淘宝将限制您在食品类目的商品发布权限，并影响您的正常经营。进行备案：https://yingxiao.taobao.com/content/nContentDetail.htm?spm=a2152.7707702.0.0.vaOKwj&contentId=129380027446&blockId=159640017446&type="
+          },
+          {
+            "id": 50014812,
+            "name": "尿片/洗护/喂哺/推车床",
+            "path": [
+              "尿片/洗护/喂哺/推车床"
+            ],
+            "idpath": [
+              50014812
+            ],
+            "spell": "npxhwbtcc",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "妈妈用品已经归一到妈妈类目下，发布商品时请注意"
+          },
+          {
+            "id": 122650005,
+            "name": "童鞋/婴儿鞋/亲子鞋",
+            "path": [
+              "童鞋/婴儿鞋/亲子鞋"
+            ],
+            "idpath": [
+              122650005
+            ],
+            "spell": "txyexqzx",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 50008165,
+            "name": "童装/婴儿装/亲子装",
+            "path": [
+              "童装/婴儿装/亲子装"
+            ],
+            "idpath": [
+              50008165
+            ],
+            "spell": "tzyezqzz",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "童装类目启动全类目消保:http://bangpai.taobao.com/group/thread/159763-260692183.htm"
+          },
+          {
+            "id": 25,
+            "name": "玩具/童车/益智/积木/模型",
+            "path": [
+              "玩具/童车/益智/积木/模型"
+            ],
+            "idpath": [
+              25
+            ],
+            "spell": "wjtcyzjmmx",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "玩具类目调整公告：http://bangpai.taobao.com/group/thread/14876255-277591617.htm?spm=0.0.0.119.368cf0"
+          },
+          {
+            "id": 50022517,
+            "name": "孕妇装/孕产妇用品/营养",
+            "path": [
+              "孕妇装/孕产妇用品/营养"
+            ],
+            "idpath": [
+              50022517
+            ],
+            "spell": "yfzycfypyy",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          }
+        ]
+      },
+      {
+        "groupName": "家居建材",
+        "groupId": "G_7",
+        "children": [
+          {
+            "id": 50008163,
+            "name": "床上用品",
+            "path": [
+              "床上用品"
+            ],
+            "idpath": [
+              50008163
+            ],
+            "spell": "csyp",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "家纺的卖家请注意，为了能净化我们的家纺市场，能让更多优质家纺商品披露给买家，淘宝推出了材质鉴定险，请加入鉴定质量险，对我们的材质进行承诺兜底，能获得更多程度的披露，详情请见：http://www.taobao.com/go/act/baoxian/jfjcmjjs.php"
+          },
+          {
+            "id": 50020579,
+            "name": "电子/电工",
+            "path": [
+              "电子/电工"
+            ],
+            "idpath": [
+              50020579
+            ],
+            "spell": "dzdg",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "电子电工卖家的官方群：593477466！加群必须附上自己店铺地址！进群不得不说话或者只说废话！我们需要好卖家！"
+          },
+          {
+            "id": 50020332,
+            "name": "基础建材",
+            "path": [
+              "基础建材"
+            ],
+            "idpath": [
+              50020332
+            ],
+            "spell": "jcjc",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "淘宝基础建材钉钉群：http://tb.cn/werBUJw！加群必须附上自己店铺地址！进群不得不说话或者只说废话！我们需要好卖家！"
+          },
+          {
+            "id": 50020808,
+            "name": "家居饰品",
+            "path": [
+              "家居饰品"
+            ],
+            "idpath": [
+              50020808
+            ],
+            "spell": "jjsp",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "2012类目调整开始，装饰画类目3月31日调整完毕。详情了解和反馈：http://bangpai.taobao.com/group/thread/14262592-271914825.htm"
+          },
+          {
+            "id": 27,
+            "name": "家装主材",
+            "path": [
+              "家装主材"
+            ],
+            "idpath": [
+              27
+            ],
+            "spell": "jzzc",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "家装主材行业全类目开放破损补寄，若是易碎材质的玻璃，陶瓷等家装类商品，可以加入交易合约-破损补寄，促使优质合约商品浮现，详情请见：http://bangpai.taobao.com/group/thread/14262592-285775011.htm?spm=0.0.0.0.zF5VK3"
+          },
+          {
+            "id": 122852001,
+            "name": "居家布艺",
+            "path": [
+              "居家布艺"
+            ],
+            "idpath": [
+              122852001
+            ],
+            "spell": "jjby",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 124050001,
+            "name": "全屋定制",
+            "path": [
+              "全屋定制"
+            ],
+            "idpath": [
+              124050001
+            ],
+            "spell": "qwdz",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 50020611,
+            "name": "商业/办公家具",
+            "path": [
+              "商业/办公家具"
+            ],
+            "idpath": [
+              50020611
+            ],
+            "spell": "sybgjj",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 50020857,
+            "name": "特色手工艺",
+            "path": [
+              "特色手工艺"
+            ],
+            "idpath": [
+              50020857
+            ],
+            "spell": "tssgy",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 50020485,
+            "name": "五金/工具",
+            "path": [
+              "五金/工具"
+            ],
+            "idpath": [
+              50020485
+            ],
+            "spell": "wjgj",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "五金工具行业商家完成线下实体资质认证会有更多流量支持。报名链接：https://yingxiao.taobao.com/content/n_content_detail.htm?contentId=493212033285"
+          },
+          {
+            "id": 50008164,
+            "name": "住宅家具",
+            "path": [
+              "住宅家具"
+            ],
+            "idpath": [
+              50008164
+            ],
+            "spell": "zzjj",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "请在运费模板中，通过家装物流、配送安装模板正确设置运费，详见：http://bangpai.taobao.com/group/thread/14792919-273655581.htm"
+          },
+          {
+            "id": 50023804,
+            "name": "装修设计/施工/监理",
+            "path": [
+              "装修设计/施工/监理"
+            ],
+            "idpath": [
+              50023804
+            ],
+            "spell": "zxsjsgjl",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "装修设计极有家招商中，赶紧报名入驻，获得更多流量，详见https://jiyoujia-design.bbs.taobao.com/detail.html?spm=a210m.7784887.0.0.4660a9a95XNF9j&postId=5687076"
+          }
+        ]
+      },
+      {
+        "groupName": "百货食品",
+        "groupId": "G_8",
+        "children": [
+          {
+            "id": 50023717,
+            "name": "OTC药品/医疗器械/计生用品",
+            "path": [
+              "OTC药品/医疗器械/计生用品"
+            ],
+            "idpath": [
+              50023717
+            ],
+            "spell": "otcypylqxjsyp",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "仅限商城特邀取得药品信息交易许可证合作商家发布"
+          },
+          {
+            "id": 50026800,
+            "name": "保健食品/膳食营养补充食品",
+            "path": [
+              "保健食品/膳食营养补充食品"
+            ],
+            "idpath": [
+              50026800
+            ],
+            "spell": "bjspssyybcsp",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "2015年9月30日前未备案的食品特种经营卖家(除农产品外),淘宝将限制您在食品类目的商品发布权限(\"保健食品\"商品从2015年9月17日开始限制新发保健食品类商品),并影响您的正常经营。请点此备案：https://yingxiao.taobao.com/content/n_content_detail.htm?spm=0.0.0.0.Jh6kLN&contentId=129380027446&blockId=159640057446&type=block"
+          },
+          {
+            "id": 122952001,
+            "name": "餐饮具",
+            "path": [
+              "餐饮具"
+            ],
+            "idpath": [
+              122952001
+            ],
+            "spell": "cyj",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 124458005,
+            "name": "茶",
+            "path": [
+              "茶"
+            ],
+            "idpath": [
+              124458005
+            ],
+            "spell": "c",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 2813,
+            "name": "成人用品/情趣用品",
+            "path": [
+              "成人用品/情趣用品"
+            ],
+            "idpath": [
+              2813
+            ],
+            "spell": "crypqqyp",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 50016349,
+            "name": "厨房/烹饪用具",
+            "path": [
+              "厨房/烹饪用具"
+            ],
+            "idpath": [
+              50016349
+            ],
+            "spell": "cfpyj",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "厨房餐具卖家想参加活动加336285239，帮派http://bangpai.taobao.com/group/14045662.htm"
+          },
+          {
+            "id": 50020275,
+            "name": "传统滋补营养品",
+            "path": [
+              "传统滋补营养品"
+            ],
+            "idpath": [
+              50020275
+            ],
+            "spell": "ctzbyyp",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "2015年9月30日前未备案的食品特种经营卖家（除农产品外），淘宝将限制您在食品类目的商品发布权限，并影响您的正常经营。进行备案：https://yingxiao.taobao.com/content/n_content_detail.htm?spm=0.0.0.0.Jh6kLN&contentId=129380027446&blockId=159640057446&type=block"
+          },
+          {
+            "id": 50016348,
+            "name": "家庭/个人清洁工具",
+            "path": [
+              "家庭/个人清洁工具"
+            ],
+            "idpath": [
+              50016348
+            ],
+            "spell": "jtgrqjgj",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "收纳清洁用具 卖家营销活动交流群：101901946"
+          },
+          {
+            "id": 122950001,
+            "name": "节庆用品/礼品",
+            "path": [
+              "节庆用品/礼品"
+            ],
+            "idpath": [
+              122950001
+            ],
+            "spell": "jqyplp",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 50008141,
+            "name": "酒类",
+            "path": [
+              "酒类"
+            ],
+            "idpath": [
+              50008141
+            ],
+            "spell": "jl",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "12月1日起禁售部分商品详情请见http://bangpai.taobao.com/group/thread/250014-285683087.htm?spm=0.0.0.0.igPlL6"
+          },
+          {
+            "id": 21,
+            "name": "居家日用",
+            "path": [
+              "居家日用"
+            ],
+            "idpath": [
+              21
+            ],
+            "spell": "jjry",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 50026316,
+            "name": "咖啡/麦片/冲饮",
+            "path": [
+              "咖啡/麦片/冲饮"
+            ],
+            "idpath": [
+              50026316
+            ],
+            "spell": "kfmpcy",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "由原来的零食下独立出来"
+          },
+          {
+            "id": 50016422,
+            "name": "粮油米面/南北干货/调味品",
+            "path": [
+              "粮油米面/南北干货/调味品"
+            ],
+            "idpath": [
+              50016422
+            ],
+            "spell": "lymmnbghdwp",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "2015年9月30日前未备案的食品特种经营卖家（除农产品外），淘宝将限制您在食品类目的商品发布权限，并影响您的正常经营。进行备案：https://yingxiao.taobao.com/content/n_content_detail.htm?spm=0.0.0.0.Jh6kLN&contentId=129380027446&blockId=159640057446&type=block"
+          },
+          {
+            "id": 50002766,
+            "name": "零食/坚果/特产",
+            "path": [
+              "零食/坚果/特产"
+            ],
+            "idpath": [
+              50002766
+            ],
+            "spell": "lsjgtc",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "食品类目强制申请备案：https://yingxiao.taobao.com/content/n_content_detail.htm?&contentId=129380027446&blockId=159640057446"
+          },
+          {
+            "id": 122928002,
+            "name": "收纳整理",
+            "path": [
+              "收纳整理"
+            ],
+            "idpath": [
+              122928002
+            ],
+            "spell": "snzl",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 50050359,
+            "name": "水产肉类/新鲜蔬果/熟食",
+            "path": [
+              "水产肉类/新鲜蔬果/熟食"
+            ],
+            "idpath": [
+              50050359
+            ],
+            "spell": "scrlxxsgss",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "2015年9月30日前未备案的食品特种经营卖家（除农产品外），淘宝将限制您在食品类目的商品发布权限，并影响您的正常经营。进行备案：https://yingxiao.taobao.com/content/n_content_detail.htm?spm=0.0.0.0.Jh6kLN&contentId=129380027446&blockId=159640057446&type=block"
+          },
+          {
+            "id": 50025705,
+            "name": "洗护清洁剂/卫生巾/纸/香薰",
+            "path": [
+              "洗护清洁剂/卫生巾/纸/香薰"
+            ],
+            "idpath": [
+              50025705
+            ],
+            "spell": "xhqjjwsjzx",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          }
+        ]
+      },
+      {
+        "groupName": "运动户外",
+        "groupId": "G_9",
+        "children": [
+          {
+            "id": 124354002,
+            "name": "电动车/配件/交通工具",
+            "path": [
+              "电动车/配件/交通工具"
+            ],
+            "idpath": [
+              124354002
+            ],
+            "spell": "ddcpjjtgj",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 50013886,
+            "name": "户外/登山/野营/旅行用品",
+            "path": [
+              "户外/登山/野营/旅行用品"
+            ],
+            "idpath": [
+              50013886
+            ],
+            "spell": "hwdsyylxyp",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "户外list2.0上线(绿色底），标有”掌柜热卖” 就是直通车广告，第一页上方一个，下方三个广告，第二页以后是下方三个广告，其他非广告位商品展示规则不变。"
+          },
+          {
+            "id": 50010728,
+            "name": "运动/瑜伽/健身/球迷用品",
+            "path": [
+              "运动/瑜伽/健身/球迷用品"
+            ],
+            "idpath": [
+              50010728
+            ],
+            "spell": "ydjsqmyp",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 50510002,
+            "name": "运动包/户外包/配件",
+            "path": [
+              "运动包/户外包/配件"
+            ],
+            "idpath": [
+              50510002
+            ],
+            "spell": "ydbhwbpj",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 50011699,
+            "name": "运动服/休闲服装",
+            "path": [
+              "运动服/休闲服装"
+            ],
+            "idpath": [
+              50011699
+            ],
+            "spell": "ydfxxfz",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 50012029,
+            "name": "运动鞋new",
+            "path": [
+              "运动鞋new"
+            ],
+            "idpath": [
+              50012029
+            ],
+            "spell": "ydxnew",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 122684003,
+            "name": "自行车/骑行装备/零配件",
+            "path": [
+              "自行车/骑行装备/零配件"
+            ],
+            "idpath": [
+              122684003
+            ],
+            "spell": "zxcqxzblpj",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          }
+        ]
+      },
+      {
+        "groupName": "文化玩乐",
+        "groupId": "G_10",
+        "children": [
+          {
+            "id": 29,
+            "name": "宠物/宠物食品及用品",
+            "path": [
+              "宠物/宠物食品及用品"
+            ],
+            "idpath": [
+              29
+            ],
+            "spell": "cwcwspjyp",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "淘宝宠物&水族小宠卖家群：1644239555\n萌宠IP周边商品请发布在：宠物附属品（新）——宠物相册、明信片等周边   （包括不仅限于IP类的服饰配件、箱包、家居抱枕百货、3C数码手机壳）"
+          },
+          {
+            "id": 50025707,
+            "name": "度假线路/签证送关/旅游服务",
+            "path": [
+              "度假线路/签证送关/旅游服务"
+            ],
+            "idpath": [
+              50025707
+            ],
+            "spell": "djxlqzsglyfw",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "商家入驻流程：http://zhaoshang.alitrip.com"
+          },
+          {
+            "id": 23,
+            "name": "古董/邮币/字画/收藏",
+            "path": [
+              "古董/邮币/字画/收藏"
+            ],
+            "idpath": [
+              23
+            ],
+            "spell": "gdybzhsc",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 50454031,
+            "name": "景点门票/演艺演出/周边游",
+            "path": [
+              "景点门票/演艺演出/周边游"
+            ],
+            "idpath": [
+              50454031
+            ],
+            "spell": "jdmpyyyczby",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "景点门票商品发布指导：http://www.dwz.cn/z5wk5 门票电子票发布指导：http://www.dwz.cn/gpa9l"
+          },
+          {
+            "id": 50017300,
+            "name": "乐器/吉他/钢琴/配件",
+            "path": [
+              "乐器/吉他/钢琴/配件"
+            ],
+            "idpath": [
+              50017300
+            ],
+            "spell": "lqjtgqpj",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 124484008,
+            "name": "模玩/动漫/周边/cos/桌游",
+            "path": [
+              "模玩/动漫/周边/cos/桌游"
+            ],
+            "idpath": [
+              124484008
+            ],
+            "spell": "mwdmzbcoszy",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 33,
+            "name": "书籍/杂志/报纸",
+            "path": [
+              "书籍/杂志/报纸"
+            ],
+            "idpath": [
+              33
+            ],
+            "spell": "sjzzbz",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "重要通知：销售书籍类产品卖家，请完成书籍类目特种经营申请 http://service.taobao.com/support/qualify/index.htm"
+          },
+          {
+            "id": 50011949,
+            "name": "特价酒店/特色客栈/公寓旅馆",
+            "path": [
+              "特价酒店/特色客栈/公寓旅馆"
+            ],
+            "idpath": [
+              50011949
+            ],
+            "spell": "tjjdtskzgylg",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "酒店卖家可以报聚划算啦！http://bangpai.taobao.com/group/thread/14051111-275417262.htm?spm=0.0.0.78.IAjT9E"
+          },
+          {
+            "id": 34,
+            "name": "音乐/影视/明星/音像",
+            "path": [
+              "音乐/影视/明星/音像"
+            ],
+            "idpath": [
+              34
+            ],
+            "spell": "ylysmxyx",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          }
+        ]
+      },
+      {
+        "groupName": "生活服务",
+        "groupId": "G_11",
+        "children": [
+          {
+            "id": 50025111,
+            "name": "本地化生活服务",
+            "path": [
+              "本地化生活服务"
+            ],
+            "idpath": [
+              50025111
+            ],
+            "spell": "bdhshfw",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 50008075,
+            "name": "餐饮美食卡券",
+            "path": [
+              "餐饮美食卡券"
+            ],
+            "idpath": [
+              50008075
+            ],
+            "spell": "cymskq",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "卖家必看！餐饮美食类目调整通知：\r\nhttp://bangpai.taobao.com/group/thread/809032-280036077.htm?spm=0.0.0.0.o4yYuX"
+          },
+          {
+            "id": 50025110,
+            "name": "电影/演出/体育赛事",
+            "path": [
+              "电影/演出/体育赛事"
+            ],
+            "idpath": [
+              50025110
+            ],
+            "spell": "dyyctyss",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "卖家必看！教你如何玩转1212，获得流量暴增！详见帮派：http://bangpai.taobao.com/group/thread/809032-278636826.htm"
+          },
+          {
+            "id": 50023575,
+            "name": "房产/租房/新房/二手房/委托服务",
+            "path": [
+              "房产/租房/新房/二手房/委托服务"
+            ],
+            "idpath": [
+              50023575
+            ],
+            "spell": "fczfxfesfwtfw",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "官方群：637757388。房产官方帮派: http://bangpai.taobao.com/group/1197034.htm"
+          },
+          {
+            "id": 50025004,
+            "name": "个性定制/设计服务/DIY",
+            "path": [
+              "个性定制/设计服务/DIY"
+            ],
+            "idpath": [
+              50025004
+            ],
+            "spell": "gxdzsjfwdiy",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "【重要】个性定制/设计服务类目调整：http://bangpai.taobao.com/group/thread/301535-264763470.htm个性定制（集市）旺旺群：614075851"
+          },
+          {
+            "id": 50026555,
+            "name": "购物提货券",
+            "path": [
+              "购物提货券"
+            ],
+            "idpath": [
+              50026555
+            ],
+            "spell": "gwthq",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "在此类目下发布的商品，应为有效可核销的电子券，或线下实体门店可提货的实物卡券，不含实物商品。若您线上发布需物流发货的实物商品，请在实物商品所属类目下发布。若违规发布，淘宝将按《淘宝规则》等规定，采取包括但不限于取消商品发布乃至违规处罚等对应处理。"
+          },
+          {
+            "id": 50014927,
+            "name": "教育培训",
+            "path": [
+              "教育培训"
+            ],
+            "idpath": [
+              50014927
+            ],
+            "spell": "jypx",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "此类目只允许发布培训课程或培训服务类商品，禁止发布电子传输类教程"
+          },
+          {
+            "id": 50025618,
+            "name": "理财",
+            "path": [
+              "理财"
+            ],
+            "idpath": [
+              50025618
+            ],
+            "spell": "lc",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 50014811,
+            "name": "网店/网络服务/软件",
+            "path": [
+              "网店/网络服务/软件"
+            ],
+            "idpath": [
+              50014811
+            ],
+            "spell": "wdwlfwrj",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "个性定制产品/设计服务商品请发布到新的一级类目：个性定制/设计服务/DIY。类目调整：http://bangpai.taobao.com/group/thread/301535-264763470.htm"
+          },
+          {
+            "id": 50158001,
+            "name": "网络店铺代金/优惠券",
+            "path": [
+              "网络店铺代金/优惠券"
+            ],
+            "idpath": [
+              50158001
+            ],
+            "spell": "wldpdjyhq",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "该类目下不允许出售“流量卡、手机卡”类等平台已经实现准入的商品。"
+          },
+          {
+            "id": 50007216,
+            "name": "鲜花速递/花卉仿真/绿植园艺",
+            "path": [
+              "鲜花速递/花卉仿真/绿植园艺"
+            ],
+            "idpath": [
+              50007216
+            ],
+            "spell": "xhsdhhfzlzyy",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "新增花园植物行道树果树类目，类目旺旺群944946681，最新类目咨询都在公告。"
+          },
+          {
+            "id": 50019095,
+            "name": "消费卡",
+            "path": [
+              "消费卡"
+            ],
+            "idpath": [
+              50019095
+            ],
+            "spell": "xfk",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          }
+        ]
+      },
+      {
+        "groupName": "其他商品",
+        "groupId": "G_12",
+        "children": [
+          {
+            "id": 123536002,
+            "name": "阿里通信专属类目",
+            "path": [
+              "阿里通信专属类目"
+            ],
+            "idpath": [
+              123536002
+            ],
+            "spell": "altxzslm",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 127458007,
+            "name": "搬运/仓储/物流设备",
+            "path": [
+              "搬运/仓储/物流设备"
+            ],
+            "idpath": [
+              127458007
+            ],
+            "spell": "byccwlsb",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 98,
+            "name": "包装",
+            "path": [
+              "包装"
+            ],
+            "idpath": [
+              98
+            ],
+            "spell": "bz",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "1688包装行业运营小二朱栩彤要求创建"
+          },
+          {
+            "id": 127492006,
+            "name": "标准件/零部件/工业耗材",
+            "path": [
+              "标准件/零部件/工业耗材"
+            ],
+            "idpath": [
+              127492006
+            ],
+            "spell": "bzjlbjgyhc",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 125102006,
+            "name": "到家业务",
+            "path": [
+              "到家业务"
+            ],
+            "idpath": [
+              125102006
+            ],
+            "spell": "djyw",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 127442006,
+            "name": "纺织面料/辅料/配套",
+            "path": [
+              "纺织面料/辅料/配套"
+            ],
+            "idpath": [
+              127442006
+            ],
+            "spell": "fzmlflpt",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 120886001,
+            "name": "公益",
+            "path": [
+              "公益"
+            ],
+            "idpath": [
+              120886001
+            ],
+            "spell": "gy",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 127508003,
+            "name": "机械设备",
+            "path": [
+              "机械设备"
+            ],
+            "idpath": [
+              127508003
+            ],
+            "spell": "jxsb",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 126700003,
+            "name": "家装灯饰光源",
+            "path": [
+              "家装灯饰光源"
+            ],
+            "idpath": [
+              126700003
+            ],
+            "spell": "jzdsgy",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 127450004,
+            "name": "金属材料及制品",
+            "path": [
+              "金属材料及制品"
+            ],
+            "idpath": [
+              127450004
+            ],
+            "spell": "jscljzp",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 126762001,
+            "name": "美容美体仪器",
+            "path": [
+              "美容美体仪器"
+            ],
+            "idpath": [
+              126762001
+            ],
+            "spell": "mrmtyq",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 124468001,
+            "name": "农机/农具/农膜",
+            "path": [
+              "农机/农具/农膜"
+            ],
+            "idpath": [
+              124468001
+            ],
+            "spell": "njnjnm",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 124466001,
+            "name": "农用物资",
+            "path": [
+              "农用物资"
+            ],
+            "idpath": [
+              124466001
+            ],
+            "spell": "nywz",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 124844002,
+            "name": "拍卖会专用",
+            "path": [
+              "拍卖会专用"
+            ],
+            "idpath": [
+              124844002
+            ],
+            "spell": "pmhzy",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 50023724,
+            "name": "其他",
+            "path": [
+              "其他"
+            ],
+            "idpath": [
+              50023724
+            ],
+            "spell": "qt",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "其他类目规则说明：https://s.bbs.taobao.com/detail.html?postId=4627613"
+          },
+          {
+            "id": 201162107,
+            "name": "汽车零部件/养护/美容/维保",
+            "path": [
+              "汽车零部件/养护/美容/维保"
+            ],
+            "idpath": [
+              201162107
+            ],
+            "spell": "qclbjyhmrwb",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 127876007,
+            "name": "清洗/食品/商业设备",
+            "path": [
+              "清洗/食品/商业设备"
+            ],
+            "idpath": [
+              127876007
+            ],
+            "spell": "qxspsysb",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "业务边界（范围）为：面向实体门店，企业工厂采购人群，用于再服务再生产维持经营的清洗清理，食品加工生产，风机环保治理，自助制冷等工商业专用设备；不涉及到生活电器，厨房电器，大家电，办公设备，个护，美容仪器等已有的类目体系和业务范围；淘宝运营陈赓，天猫运营赋能。"
+          },
+          {
+            "id": 127484003,
+            "name": "润滑/胶粘/试剂/实验室耗材",
+            "path": [
+              "润滑/胶粘/试剂/实验室耗材"
+            ],
+            "idpath": [
+              127484003
+            ],
+            "spell": "rhjzsjsyshc",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 201156706,
+            "name": "商务/设计服务",
+            "path": [
+              "商务/设计服务"
+            ],
+            "idpath": [
+              201156706
+            ],
+            "spell": "swsjfw",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 124568010,
+            "name": "室内设计师",
+            "path": [
+              "室内设计师"
+            ],
+            "idpath": [
+              124568010
+            ],
+            "spell": "snsjs",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 120894001,
+            "name": "淘女郎",
+            "path": [
+              "淘女郎"
+            ],
+            "idpath": [
+              120894001
+            ],
+            "spell": "tnl",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 201136401,
+            "name": "闲鱼优品",
+            "path": [
+              "闲鱼优品"
+            ],
+            "idpath": [
+              201136401
+            ],
+            "spell": "xyyp",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 127452002,
+            "name": "橡塑材料及制品",
+            "path": [
+              "橡塑材料及制品"
+            ],
+            "idpath": [
+              127452002
+            ],
+            "spell": "xscljzp",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 124470001,
+            "name": "畜牧/养殖物资",
+            "path": [
+              "畜牧/养殖物资"
+            ],
+            "idpath": [
+              124470001
+            ],
+            "spell": "xmyzwz",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 124242008,
+            "name": "智能设备",
+            "path": [
+              "智能设备"
+            ],
+            "idpath": [
+              124242008
+            ],
+            "spell": "znsb",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 121266001,
+            "name": "众筹",
+            "path": [
+              "众筹"
+            ],
+            "idpath": [
+              121266001
+            ],
+            "spell": "zc",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          },
+          {
+            "id": 124698018,
+            "name": "装修服务",
+            "path": [
+              "装修服务"
+            ],
+            "idpath": [
+              124698018
+            ],
+            "spell": "zxfw",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          }
+        ]
+      },
+      {
+        "groupName": "汽配摩托",
+        "groupId": "G_13",
+        "children": [
+          {
+            "id": 50074001,
+            "name": "摩托车/装备/配件",
+            "path": [
+              "摩托车/装备/配件"
+            ],
+            "idpath": [
+              50074001
+            ],
+            "spell": "mtczbpj",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": ""
+          },
+          {
+            "id": 26,
+            "name": "汽车用品/电子/清洗/改装",
+            "path": [
+              "汽车用品/电子/清洗/改装"
+            ],
+            "idpath": [
+              26
+            ],
+            "spell": "qcypdzqxgz",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true,
+            "tips": "问题反馈，找淘宝官方帮派：http://bangpai.taobao.com/group/14793009.htm"
+          },
+          {
+            "id": 50024971,
+            "name": "新车/二手车",
+            "path": [
+              "新车/二手车"
+            ],
+            "idpath": [
+              50024971
+            ],
+            "spell": "xcesc",
+            "isBrand": false,
+            "leaf": false,
+            "isAuthorized": true
+          }
+        ]
+      }
+    ]
+  }
+}

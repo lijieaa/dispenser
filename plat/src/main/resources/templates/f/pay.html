@@ -223,10 +223,11 @@
 
     </style>
     <script src="http://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+    <script th:src="@{/js/jquery-3.4.1.min.js}"></script>
     <script type="text/javascript" th:inline="javascript">
         var contextPath =  /*[[@{/}]]*/;
         /*<![CDATA[*/
-        alert(location.href.split('#')[0])
+        //alert(location.href.split('#')[0])
         var flag = [[${flag}]]; //flag=true时是运行在支付宝环境，flag=false时是运行在微信环境
         //alert(flag);
         if (flag) {
@@ -239,7 +240,7 @@
                 async: false,
                 data: {"targetUrl": targetUrl},
                 dataType: "json",
-                url:contextPath+"/f/ticket" ,
+                url:"/f/ticket" ,
                 success: function (data) {
                     wx.config({
                         debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
